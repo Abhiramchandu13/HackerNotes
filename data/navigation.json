@@ -799,6 +799,1076 @@ const NAV = {
     ]
   },
   
+  "Networking": {
+      "icon": "🌐",
+      "color": "#a2eeef",
+      "description": "Master networking from fundamentals to enterprise infrastructure and security",
+      "phases": [
+          {
+              "phase": "01 — Networking Foundations",
+              "notes": [
+                  {
+                      "id": "networking/01-networking-foundations/bandwidth",
+                      "title": "Bandwidth"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/cables-and-connectors",
+                      "title": "Cables and Connectors"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/client-server-vs-peer-to-peer",
+                      "title": "Client-Server vs Peer-to-Peer"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/duplex",
+                      "title": "Duplex"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/internet-vs-intranet-vs-extranet",
+                      "title": "Internet, Intranet, and Extranet"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/jitter",
+                      "title": "Jitter"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/latency",
+                      "title": "Latency"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/mss",
+                      "title": "MSS"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/mtu",
+                      "title": "MTU"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/network-components",
+                      "title": "Network Components"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/network-standards-organizations",
+                      "title": "Network Standards Organizations"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/network-topologies",
+                      "title": "Network Topologies"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/network-types",
+                      "title": "Network Types"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/overview",
+                      "title": "Overview"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/packet-loss",
+                      "title": "Packet Loss"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/signal-propagation",
+                      "title": "Signal Propagation"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/throughput",
+                      "title": "Throughput"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/transmission-media",
+                      "title": "Transmission Media"
+                  },
+                  {
+                      "id": "networking/01-networking-foundations/what-is-networking",
+                      "title": "What is Networking"
+                  }
+              ]
+          },
+          {
+              "phase": "02 — Osi And Tcpip Models",
+              "notes": [
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/application-layer",
+                      "title": "Layer 7 - Application Layer"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/data-link-layer",
+                      "title": "Layer 2 - Data Link Layer"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/encapsulation-and-decapsulation",
+                      "title": "Encapsulation and Decapsulation"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/network-layer",
+                      "title": "Layer 3 - Network Layer"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/osi-model-overview",
+                      "title": "OSI Model Overview"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/osi-vs-tcpip-model",
+                      "title": "OSI vs TCP/IP Model"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/physical-layer",
+                      "title": "Layer 1 - Physical Layer"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/presentation-layer",
+                      "title": "Layer 6 - Presentation Layer"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/protocol-data-units",
+                      "title": "Protocol Data Units (PDU)"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/session-layer",
+                      "title": "Layer 5 - Session Layer"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/tcp-ip-model",
+                      "title": "TCP/IP Model"
+                  },
+                  {
+                      "id": "networking/02-osi-and-tcpip-models/transport-layer",
+                      "title": "Layer 4 - Transport Layer"
+                  }
+              ]
+          },
+          {
+              "phase": "03 — Ethernet And Switching",
+              "notes": [
+                  {
+                      "id": "networking/03-ethernet-and-switching/arp",
+                      "title": "ARP (Address Resolution Protocol)"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/cam-table",
+                      "title": "CAM Table"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/cdp-and-lldp",
+                      "title": "CDP and LLDP"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/csma-cd",
+                      "title": "CSMA/CD"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/etherchannel",
+                      "title": "EtherChannel (Link Aggregation)"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/ethernet",
+                      "title": "Ethernet"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/frames",
+                      "title": "Ethernet Frames"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/gratuitous-arp",
+                      "title": "Gratuitous ARP"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/inter-vlan-routing",
+                      "title": "Inter-VLAN Routing"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/mac-addresses",
+                      "title": "MAC Addresses"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/mstp",
+                      "title": "MSTP (Multiple Spanning Tree Protocol)"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/port-security",
+                      "title": "Port Security"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/rstp",
+                      "title": "RSTP (Rapid Spanning Tree Protocol)"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/stp",
+                      "title": "Spanning Tree Protocol (STP)"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/switch-operation",
+                      "title": "Switch Operation"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/switch-stacking",
+                      "title": "Switch Stacking"
+                  },
+                  {
+                      "id": "networking/03-ethernet-and-switching/vlans-and-trunks",
+                      "title": "VLANs and Trunks"
+                  }
+              ]
+          },
+          {
+              "phase": "04 — Ip Addressing",
+              "notes": [
+                  {
+                      "id": "networking/04-ip-addressing/anycast-addressing",
+                      "title": "Anycast Addressing"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/apipa",
+                      "title": "APIPA (Automatic Private IP Addressing)"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/broadcast-address",
+                      "title": "Broadcast Address"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/cidr",
+                      "title": "CIDR (Classless Inter-Domain Routing)"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/ipv4-addressing",
+                      "title": "IPv4 Addressing"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/ipv4-subnetting",
+                      "title": "IPv4 Subnetting"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/ipv6-addressing",
+                      "title": "IPv6 Addressing"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/ipv6-subnetting",
+                      "title": "IPv6 Subnetting"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/ipv6-transition-mechanisms",
+                      "title": "IPv6 Transition Mechanisms"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/loopback-address",
+                      "title": "Loopback Address"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/multicast-addressing",
+                      "title": "Multicast Addressing"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/nat-and-pat",
+                      "title": "NAT and PAT"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/neighbor-discovery-protocol",
+                      "title": "Neighbor Discovery Protocol (NDP)"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/private-ip",
+                      "title": "Private IP Addresses"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/public-ip",
+                      "title": "Public IP Addresses"
+                  },
+                  {
+                      "id": "networking/04-ip-addressing/vlsm",
+                      "title": "VLSM (Variable Length Subnet Masking)"
+                  }
+              ]
+          },
+          {
+              "phase": "05 — Routing",
+              "notes": [
+                  {
+                      "id": "networking/05-routing/administrative-distance",
+                      "title": "Administrative Distance"
+                  },
+                  {
+                      "id": "networking/05-routing/bgp",
+                      "title": "BGP (Border Gateway Protocol)"
+                  },
+                  {
+                      "id": "networking/05-routing/default-route",
+                      "title": "Default Route"
+                  },
+                  {
+                      "id": "networking/05-routing/dynamic-routing-metrics",
+                      "title": "Routing Metrics"
+                  },
+                  {
+                      "id": "networking/05-routing/dynamic-routing-protocols",
+                      "title": "Dynamic Routing Protocols"
+                  },
+                  {
+                      "id": "networking/05-routing/eigrp",
+                      "title": "EIGRP (Enhanced Interior Gateway Routing Protocol)"
+                  },
+                  {
+                      "id": "networking/05-routing/ospf",
+                      "title": "OSPF (Open Shortest Path First)"
+                  },
+                  {
+                      "id": "networking/05-routing/rip",
+                      "title": "RIP (Routing Information Protocol)"
+                  },
+                  {
+                      "id": "networking/05-routing/route-summarization",
+                      "title": "Route Summarization"
+                  },
+                  {
+                      "id": "networking/05-routing/routing-fundamentals",
+                      "title": "Routing Fundamentals"
+                  },
+                  {
+                      "id": "networking/05-routing/routing-table",
+                      "title": "Routing Table"
+                  },
+                  {
+                      "id": "networking/05-routing/static-routing",
+                      "title": "Static Routing"
+                  }
+              ]
+          },
+          {
+              "phase": "06 — Network Protocols",
+              "notes": [
+                  {
+                      "id": "networking/06-network-protocols/dhcp",
+                      "title": "DHCP (Dynamic Host Configuration Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/dns",
+                      "title": "DNS (Domain Name System)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/ftp",
+                      "title": "FTP (File Transfer Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/http",
+                      "title": "HTTP (Hypertext Transfer Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/https",
+                      "title": "HTTPS (Hypertext Transfer Protocol Secure)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/icmp",
+                      "title": "ICMP (Internet Control Message Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/igmp",
+                      "title": "IGMP (Internet Group Management Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/imap",
+                      "title": "IMAP (Internet Message Access Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/ldap",
+                      "title": "LDAP (Lightweight Directory Access Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/nfs",
+                      "title": "NFS (Network File System)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/ntp",
+                      "title": "NTP (Network Time Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/pop3",
+                      "title": "POP3 (Post Office Protocol version 3)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/ports-and-sockets",
+                      "title": "Ports and Sockets"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/rdp",
+                      "title": "RDP (Remote Desktop Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/rpc",
+                      "title": "RPC (Remote Procedure Call)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/rtp",
+                      "title": "RTP (Real-time Transport Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/sftp",
+                      "title": "SFTP (SSH File Transfer Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/sip",
+                      "title": "SIP (Session Initiation Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/smb",
+                      "title": "SMB (Server Message Block)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/smtp",
+                      "title": "SMTP (Simple Mail Transfer Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/snmp",
+                      "title": "Snmp"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/ssh",
+                      "title": "SSH (Secure Shell)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/syslog",
+                      "title": "Syslog"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/tcp",
+                      "title": "Transmission Control Protocol (TCP)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/telnet",
+                      "title": "Telnet"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/tftp",
+                      "title": "TFTP (Trivial File Transfer Protocol)"
+                  },
+                  {
+                      "id": "networking/06-network-protocols/udp",
+                      "title": "User Datagram Protocol (UDP)"
+                  }
+              ]
+          },
+          {
+              "phase": "07 — Network Devices",
+              "notes": [
+                  {
+                      "id": "networking/07-network-devices/access-point",
+                      "title": "Access Point (AP)"
+                  },
+                  {
+                      "id": "networking/07-network-devices/bridge",
+                      "title": "Bridge"
+                  },
+                  {
+                      "id": "networking/07-network-devices/firewall",
+                      "title": "Firewall"
+                  },
+                  {
+                      "id": "networking/07-network-devices/gateway",
+                      "title": "Gateway"
+                  },
+                  {
+                      "id": "networking/07-network-devices/hub",
+                      "title": "Hub"
+                  },
+                  {
+                      "id": "networking/07-network-devices/load-balancer",
+                      "title": "Load Balancer"
+                  },
+                  {
+                      "id": "networking/07-network-devices/modem",
+                      "title": "Modem"
+                  },
+                  {
+                      "id": "networking/07-network-devices/next-gen-firewalls",
+                      "title": "Next-Gen Firewalls (NGFW)"
+                  },
+                  {
+                      "id": "networking/07-network-devices/proxy",
+                      "title": "Proxy Server"
+                  },
+                  {
+                      "id": "networking/07-network-devices/repeater",
+                      "title": "Repeater"
+                  },
+                  {
+                      "id": "networking/07-network-devices/reverse-proxy",
+                      "title": "Reverse Proxy"
+                  },
+                  {
+                      "id": "networking/07-network-devices/router",
+                      "title": "Router"
+                  },
+                  {
+                      "id": "networking/07-network-devices/switch",
+                      "title": "Switch"
+                  },
+                  {
+                      "id": "networking/07-network-devices/unified-threat-management",
+                      "title": "Unified Threat Management (UTM)"
+                  },
+                  {
+                      "id": "networking/07-network-devices/wireless-controller",
+                      "title": "Wireless LAN Controller (WLC)"
+                  }
+              ]
+          },
+          {
+              "phase": "08 — Wireless Networking",
+              "notes": [
+                  {
+                      "id": "networking/08-wireless-networking/antenna-types",
+                      "title": "Antenna Types"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/bssid",
+                      "title": "BSSID (Basic Service Set Identifier)"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/channels-and-ssid",
+                      "title": "Channels and SSID"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/enterprise-wifi",
+                      "title": "Enterprise Wi-Fi"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/ieee-802-11",
+                      "title": "IEEE 802.11"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/roaming",
+                      "title": "Roaming"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wi-fi-standards",
+                      "title": "Wi-Fi Standards"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wifi-basics",
+                      "title": "Wi-Fi Basics"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wireless-attacks",
+                      "title": "Wireless Attacks"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wireless-security",
+                      "title": "Wireless Security"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wireless-site-surveys",
+                      "title": "Wireless Site Surveys"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wpa-handshakes",
+                      "title": "WPA Handshakes"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wpa",
+                      "title": "WPA (Wi-Fi Protected Access)"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wpa2",
+                      "title": "WPA2 (Wi-Fi Protected Access 2)"
+                  },
+                  {
+                      "id": "networking/08-wireless-networking/wpa3",
+                      "title": "WPA3 (Wi-Fi Protected Access 3)"
+                  }
+              ]
+          },
+          {
+              "phase": "09 — Network Security",
+              "notes": [
+                  {
+                      "id": "networking/09-network-security/acl",
+                      "title": "Acl"
+                  },
+                  {
+                      "id": "networking/09-network-security/cia-in-networking",
+                      "title": "Cia In Networking"
+                  },
+                  {
+                      "id": "networking/09-network-security/dmz",
+                      "title": "Dmz"
+                  },
+                  {
+                      "id": "networking/09-network-security/firewalls",
+                      "title": "Firewalls"
+                  },
+                  {
+                      "id": "networking/09-network-security/ids-ips",
+                      "title": "Ids Ips"
+                  },
+                  {
+                      "id": "networking/09-network-security/ipsec",
+                      "title": "Ipsec"
+                  },
+                  {
+                      "id": "networking/09-network-security/microsegmentation",
+                      "title": "Microsegmentation"
+                  },
+                  {
+                      "id": "networking/09-network-security/nac-and-8021x",
+                      "title": "Nac And 8021x"
+                  },
+                  {
+                      "id": "networking/09-network-security/network-segmentation",
+                      "title": "Network Segmentation"
+                  },
+                  {
+                      "id": "networking/09-network-security/ssl-vpn",
+                      "title": "Ssl Vpn"
+                  },
+                  {
+                      "id": "networking/09-network-security/tls",
+                      "title": "Tls"
+                  },
+                  {
+                      "id": "networking/09-network-security/vpns",
+                      "title": "Vpns"
+                  },
+                  {
+                      "id": "networking/09-network-security/zero-trust",
+                      "title": "Zero Trust"
+                  }
+              ]
+          },
+          {
+              "phase": "10 — Monitoring And Troubleshooting",
+              "notes": [
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/arp-command",
+                      "title": "Arp Command"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/curl",
+                      "title": "Curl"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/dig",
+                      "title": "Dig"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/host-command",
+                      "title": "Host Command"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/ifconfig",
+                      "title": "Ifconfig"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/ip-command",
+                      "title": "Ip Command"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/netflow-and-ipfix",
+                      "title": "Netflow And Ipfix"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/netstat",
+                      "title": "Netstat"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/network-monitoring",
+                      "title": "Network Monitoring"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/nslookup",
+                      "title": "Nslookup"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/packet-analysis",
+                      "title": "Packet Analysis"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/packet-capture",
+                      "title": "Packet Capture"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/ping",
+                      "title": "Ping"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/snmp-monitoring",
+                      "title": "Snmp Monitoring"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/ss",
+                      "title": "Ss"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/tcpdump",
+                      "title": "Tcpdump"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/traceroute",
+                      "title": "Traceroute"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/troubleshooting-methodology",
+                      "title": "Troubleshooting Methodology"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/tshark",
+                      "title": "Tshark"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/wget",
+                      "title": "Wget"
+                  },
+                  {
+                      "id": "networking/10-monitoring-and-troubleshooting/wireshark",
+                      "title": "Wireshark"
+                  }
+              ]
+          },
+          {
+              "phase": "11 — Cloud And Virtual Networking",
+              "notes": [
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/aws-networking",
+                      "title": "Aws Networking"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/azure-networking",
+                      "title": "Azure Networking"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/bridges-and-nat-networks",
+                      "title": "Bridges And Nat Networks"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/cloud-networking",
+                      "title": "Cloud Networking"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/gcp-networking",
+                      "title": "Gcp Networking"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/hybrid-cloud-connectivity",
+                      "title": "Hybrid Cloud Connectivity"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/hypervisors",
+                      "title": "Hypervisors"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/kubernetes-networking",
+                      "title": "Kubernetes Networking"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/nf-virtualization",
+                      "title": "Nf Virtualization"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/sdn",
+                      "title": "Sdn"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/virtual-networking",
+                      "title": "Virtual Networking"
+                  },
+                  {
+                      "id": "networking/11-cloud-and-virtual-networking/vxlan",
+                      "title": "Vxlan"
+                  }
+              ]
+          },
+          {
+              "phase": "12 — Enterprise Networking",
+              "notes": [
+                  {
+                      "id": "networking/12-enterprise-networking/campus-network-design",
+                      "title": "Campus Network Design"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/glbp",
+                      "title": "Glbp"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/high-availability",
+                      "title": "High Availability"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/hsrp",
+                      "title": "Hsrp"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/mpls",
+                      "title": "Mpls"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/network-redundancy",
+                      "title": "Network Redundancy"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/qos",
+                      "title": "Qos"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/sd-wan",
+                      "title": "Sd Wan"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/spine-leaf-architecture",
+                      "title": "Spine Leaf Architecture"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/vrrp",
+                      "title": "Vrrp"
+                  },
+                  {
+                      "id": "networking/12-enterprise-networking/wan-technologies",
+                      "title": "Wan Technologies"
+                  }
+              ]
+          },
+          {
+              "phase": "13 — Advanced Network Security",
+              "notes": [
+                  {
+                      "id": "networking/13-advanced-network-security/aaa-framework",
+                      "title": "Aaa Framework"
+                  },
+                  {
+                      "id": "networking/13-advanced-network-security/ddos-protection",
+                      "title": "Ddos Protection"
+                  },
+                  {
+                      "id": "networking/13-advanced-network-security/edr-integration",
+                      "title": "Edr Integration"
+                  },
+                  {
+                      "id": "networking/13-advanced-network-security/honeypots-and-sinkholes",
+                      "title": "Honeypots And Sinkholes"
+                  },
+                  {
+                      "id": "networking/13-advanced-network-security/radius-and-tacacs-plus",
+                      "title": "Radius And Tacacs Plus"
+                  },
+                  {
+                      "id": "networking/13-advanced-network-security/soar-principles",
+                      "title": "Soar Principles"
+                  }
+              ]
+          },
+          {
+              "phase": "14 — Network Automation",
+              "notes": [
+                  {
+                      "id": "networking/14-network-automation/apis-in-networking",
+                      "title": "Apis In Networking"
+                  },
+                  {
+                      "id": "networking/14-network-automation/automation-tools",
+                      "title": "Automation Tools"
+                  },
+                  {
+                      "id": "networking/14-network-automation/netconf-and-restconf",
+                      "title": "Netconf And Restconf"
+                  },
+                  {
+                      "id": "networking/14-network-automation/network-automation-concepts",
+                      "title": "Network Automation Concepts"
+                  },
+                  {
+                      "id": "networking/14-network-automation/python-for-networking",
+                      "title": "Python For Networking"
+                  }
+              ]
+          },
+          {
+              "phase": "15 — Network Pentesting",
+              "notes": [
+                  {
+                      "id": "networking/15-network-pentesting/arp-spoofing",
+                      "title": "Arp Spoofing"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/banner-grabbing",
+                      "title": "Banner Grabbing"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/dhcp-attacks",
+                      "title": "Dhcp Attacks"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/dns-enumeration",
+                      "title": "Dns Enumeration"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/host-discovery",
+                      "title": "Host Discovery"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/ldap-enumeration",
+                      "title": "Ldap Enumeration"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/man-in-the-middle",
+                      "title": "Man In The Middle"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/network-attack-methodology",
+                      "title": "Network Attack Methodology"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/network-reconnaissance",
+                      "title": "Network Reconnaissance"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/pivoting",
+                      "title": "Pivoting"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/port-scanning",
+                      "title": "Port Scanning"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/rogue-access-point",
+                      "title": "Rogue Access Point"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/rogue-dhcp",
+                      "title": "Rogue Dhcp"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/service-enumeration",
+                      "title": "Service Enumeration"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/smb-enumeration",
+                      "title": "Smb Enumeration"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/snmp-enumeration",
+                      "title": "Snmp Enumeration"
+                  },
+                  {
+                      "id": "networking/15-network-pentesting/vlan-hopping",
+                      "title": "Vlan Hopping"
+                  }
+              ]
+          },
+          {
+              "phase": "16 — Windows Networking",
+              "notes": [
+                  {
+                      "id": "networking/16-windows-networking/active-directory-networking",
+                      "title": "Active Directory Networking"
+                  },
+                  {
+                      "id": "networking/16-windows-networking/dhcp-in-windows",
+                      "title": "Dhcp In Windows"
+                  },
+                  {
+                      "id": "networking/16-windows-networking/dns-in-windows",
+                      "title": "Dns In Windows"
+                  },
+                  {
+                      "id": "networking/16-windows-networking/group-policy-for-networking",
+                      "title": "Group Policy For Networking"
+                  },
+                  {
+                      "id": "networking/16-windows-networking/powershell-for-networking",
+                      "title": "Powershell For Networking"
+                  },
+                  {
+                      "id": "networking/16-windows-networking/windows-firewall",
+                      "title": "Windows Firewall"
+                  }
+              ]
+          },
+          {
+              "phase": "17 — Linux Networking",
+              "notes": [
+                  {
+                      "id": "networking/17-linux-networking/bonding-teaming",
+                      "title": "Bonding Teaming"
+                  },
+                  {
+                      "id": "networking/17-linux-networking/dhcp-in-linux",
+                      "title": "Dhcp In Linux"
+                  },
+                  {
+                      "id": "networking/17-linux-networking/dns-in-linux",
+                      "title": "Dns In Linux"
+                  },
+                  {
+                      "id": "networking/17-linux-networking/linux-firewalld-nftables",
+                      "title": "Linux Firewalld Nftables"
+                  },
+                  {
+                      "id": "networking/17-linux-networking/network-configuration-files",
+                      "title": "Network Configuration Files"
+                  },
+                  {
+                      "id": "networking/17-linux-networking/network-interfaces-linux",
+                      "title": "Network Interfaces Linux"
+                  },
+                  {
+                      "id": "networking/17-linux-networking/network-namespaces",
+                      "title": "Network Namespaces"
+                  },
+                  {
+                      "id": "networking/17-linux-networking/network-troubleshooting-linux",
+                      "title": "Network Troubleshooting Linux"
+                  }
+              ]
+          },
+          {
+              "phase": "18 — Certification And Labs",
+              "notes": [
+                  {
+                      "id": "networking/18-certification-and-labs/ccna-roadmap",
+                      "title": "Ccna Roadmap"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/ccnp-fundamentals",
+                      "title": "Ccnp Fundamentals"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/cheat-sheets",
+                      "title": "Cheat Sheets"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/cisco-ios-labs",
+                      "title": "Cisco Ios Labs"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/common-commands",
+                      "title": "Common Commands"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/interview-questions",
+                      "title": "Interview Questions"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/juniper-junos-basics",
+                      "title": "Juniper Junos Basics"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/linux-networking-labs",
+                      "title": "Linux Networking Labs"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/network-plus-roadmap",
+                      "title": "Network Plus Roadmap"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/troubleshooting-scenarios",
+                      "title": "Troubleshooting Scenarios"
+                  },
+                  {
+                      "id": "networking/18-certification-and-labs/windows-networking-labs",
+                      "title": "Windows Networking Labs"
+                  }
+              ]
+          }
+      ]
+  },
+
   "Reverse Engineering": {
     icon: "🧠",
     color: "#f78166",
@@ -825,7 +1895,8 @@ const CAT_FOLDER = {
   "API Pentesting":    "api-pentesting",
   "Linux Essentials":  "linux-essentials",
   "Active Directory":  "ad-pentesting",
-  "Reverse Engineering": "reverse-engineering"
+  "Reverse Engineering": "reverse-engineering",
+  "Networking":        "networking"
 };
 
 // Flat notes list for search

@@ -56,7 +56,7 @@
   // ── Fetch and render ─────────────────────────────────────────────
   fetch(`notes/${noteId}.md`)
     .then(r => {
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      if (!r.ok) throw new Error(`HTTP ${r.status}: ${r.statusText}`);
       return r.text();
     })
     .then(md => renderNote(md))
@@ -89,7 +89,7 @@
       html = DOMPurify.sanitize(html, {
         ADD_TAGS: ['pre','code'],
         ADD_ATTR: ['class','id','onclick'],
-        FORCE_BODY: true
+        // FORCE_BODY: true wraps output in <body> tags, breaking layout when injected into article
       });
     }
 
